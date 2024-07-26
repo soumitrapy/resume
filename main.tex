@@ -1,0 +1,179 @@
+\documentclass[a4paper,10pt]{article}
+%-----------------------------------------------------------
+\usepackage[top=0.30in, bottom=0.50in, left=0.55in, right=0.85in]{geometry}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{palatino}
+\usepackage{tabularx}
+%
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+}
+%
+\fontfamily{SansSerif}
+\selectfont
+
+\usepackage[T1]{fontenc}
+\usepackage
+%[ansinew]
+[utf8]
+{inputenc}
+
+\usepackage{color}
+\definecolor{mygrey}{gray}{0.75}
+\textheight=9.75in
+\raggedbottom
+
+\setlength{\tabcolsep}{0in}
+%
+\newcommand\tab[1][0.5cm]{\hspace*{#1}}
+%
+\newcommand{\isep}{-2 pt}
+\newcommand{\lsep}{-0.5cm}
+\newcommand{\psep}{-0.6cm}
+\renewcommand{\labelitemii}{$\circ$}
+
+\pagestyle{empty}
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\small \colorbox{mygrey}{\begin{minipage}{0.975\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheading}[3]{
+\begin{tabular*}{6.62in}{l @{\extracolsep{\fill}} r}
+	\textsc{{\textbf{#1}}} & \textsc{\textit{[#2]}} \\
+\end{tabular*}\vspace{-8pt}}
+%-----------------------------------------------------------
+
+\begin{document}
+\hspace{0.5cm}\\[-0.2cm]
+\begin{center}
+    
+    \textbf{\huge Soumitra Das} \\
+    (+91)\ 8670234735 \tab Chennai, India \\ 
+    \href{mailto:soumitra.py@gmail.com}{Email} \tab
+    \href{https://www.linkedin.com/in/soumitra-das-1b36901b9}{LinkedIn} \tab
+    \href{https://github.com/soumitrapy}{Github}\\
+
+\end{center}
+
+% \textbf{Soumitra Das} \\
+% \indent Email-id : \textbf{\url{soumitradas00002@gmail.com}} \\
+% \indent Mobile No.: \textbf{+91\ 8670234735}, \textbf{+91\ 8348231928} \\
+% \indent LinkedIn : \textbf{\url{https://www.linkedin.com/in/soumitra-das-1b36901b9/}}\\
+% \indent Github : \textbf{\url{https://github.com/dsoum}}\\
+
+\resheading{\textbf{EDUCATION} }\\[\lsep]
+\\
+%\begin{table}[ht!]
+%\begin{center}
+\indent \rule{6.8in}{0.4pt}\\
+\indent \begin{tabular}{ l @{\hskip 0.15in} l @{\hskip 0.15in} l @{\hskip 0.15in} l @{\hskip 0.15in} }
+\noindent \textbf{Institute} & \textbf{Degree} & \textbf{Year} & \textbf{GPA/Marks(\%)}\\
+Indian Institute of Technology Madras & M.Tech Data Science and AI & 2024-2026 & -\\
+Indian Institute of Technology Delhi & M.Sc Mathematics & 2020 - 2022 & 6.88/10\\
+Ramakrishna Mission Vidyamandira & B.Sc(Hons.) Mathematics & 2017 - 2020 & 7.75/10\\
+WBCHSE & Higher Secondary & 2017 & 85.2 \% \\
+WBBSE & Secondary & 2015 & 84.14 \% \\
+
+\end{tabular}
+\\
+\indent \rule{6.8in}{0.4pt}
+%\end{center}
+%\end{table}
+\\
+
+
+\resheading{\textbf{RELEVANT COURSES} }\\[\lsep]
+\begin{itemize}
+\setlength\itemsep{0em}
+
+\item \href{https://coursera.org/share/494211b74044bb124bcd4dd525ebe527}{\textbf{Sequence Models}} [by deeplearning.ai]
+%(RNN,LSTM, Transformers, Trigger word detection, Name Entity Recognition, Question Answering)
+
+\item \href{https://coursera.org/share/4eef4515a4c9099a507fe088d7689d24}{\textbf{Convolutional Neural Network }} [by deeplearning.ai]
+%(Object Detection [YOLO],semantic segmentation [UNet], Face recognition [Siamese Network], Neural Style Transfer)
+
+\item \href{https://coursera.org/share/6d84b47abf454cc3b3c30f170e335449}{\textbf{Getting Started with AWS Machine Learning}} [by AWS]
+
+%\\CNN (resnets, inception network, mobilenet, efficientnet), Computer Vision (Object Detection [YOLO],semantic segmentation [UNet], Face recognition [Siamese Network], Neural Style Transfer)
+
+%\item \textbf{Natural Language Processing with deep learning} [CS224N by Stanford University]
+%\\Word Vectors, Dependency Parsing, RNN, Machine Translation, Attention subword models,Transformers and pretraining, question answering
+
+
+%\item \textbf{Machine Learning / Statistical Learning}
+%\\Supervised Learning: Linear Regression,Ridge,Lasso, Logistic Regression, LDA,QDA,Naive Bayes,K-Nearest Neighbors,Decision Tree,Random Forest, Bagging, Boosting(Adaboost),SVM
+%\\
+%Unsupervised Learning: PCA, Clustering (K-Means, Hierarchical)
+
+\item \href{https://www.kaggle.com/learn/certification/soumitra2060/pandas}{Pandas} [by Kaggle]
+
+\item \href{https://www.kaggle.com/learn/certification/soumitra2060/intro-to-machine-learning}{Introduction to Machine Learning}[by Kaggle]
+
+\item \href{https://www.kaggle.com/learn/certification/soumitra2060/intermediate-machine-learning}{intermediate machine learning}[by Kaggle]
+
+\item \textbf{HuggingFace NLP Course} [by Huggingface]
+%transformers, Nlp applications
+
+\item Build Basic Generative Adversarial Networks (GANs)(ongoing) [ by deeplearning.ai]
+
+
+
+%\item \textbf{Statistics}\ [Minor in B.Sc]
+%\item \textbf{Computer Science}\ [Minor in B.Sc]
+%\item \textbf{Data Structures and Algorithm}
+\item Data Structures and Algorithms, Mathematical programming, Numerical Analysis, Linear algebras, Data Mining, Cryptography, Graph Theory
+\end{itemize}
+
+\resheading{\textbf{TECHNICAL SKILLS} }\\[\lsep]
+\begin{itemize}
+\setlength\itemsep{0em}
+
+\item \textbf{NLP:} transformers, Language Models(Bert, GPT), MinGPT Name Entity Recognition, Machine Translation, Questoin Answering 
+
+\item \textbf{Computer Vision:} Object Detection [with YOLO],semantic segmentation [with UNet], Face recognition, Neural Style Transfer
+
+\item Deep Learning, Machine Learning, Basic GANs
+
+\item \textbf{Machine Learning Tools/Libraries: } \textbf{Pytorch, transformers, datasets, tokenizers,} scikit-learn, OpenCV, Keras, tensorflow
+
+
+\item \textbf{Programming Languages: } \textbf{Python}
+%(Numpy,Pandas,Matplotlib,Seaborn,Scipy,Statsmodels),
+\textbf{C++, C ,JavaScript, MySQL}, R, Octave
+
+\item Others: Git,Github,Basic Web development, linux (debian based)
+\end{itemize}
+
+\resheading{\textbf{MSC THESIS} }\\[\lsep]
+\begin{itemize}
+\setlength\itemsep{0.5em}
+\item \textbf{Image Encryption using two square cipher associated with Arnold map}\ [\textbf{Supervisor - }Prof. Rajendra Kumar Sharma](Deployed a python project for image encryption based on \href{https://web.iitd.ac.in/~rksharma/Research%20Publications/Journal/dc-optic.pdf}{this} paper.)
+\end{itemize}
+%\begin{itemize}
+%\setlength\itemsep{0.5em}
+%\item \textbf{Data Encryption Standard}\ [\textbf{Supervisor - }Prof. Rajendra Kumar Sharma]\\
+%\textbf{Description - } Here, I analyze and implement the classical DES Algorithm using python
+%\end{itemize}
+
+\resheading{\textbf{PROJECTS} }\\[\lsep]
+\begin{itemize}
+\setlength\itemsep{0.2em}
+\item \href{https://github.com/soumitrapy/minbert-default-final-project}{\textbf{Minbert for multitasking}} : i. Here I created a Minimum representation of Bert and finetuned it for sentiment classification on SST and CFIMDB dataset. ii. In the second part I extend and finetuned the pretrained Bert multiple downstream task(Sentiment Analysis, Paraphrase Detection and Semantic Textual Similarity) on  SST, Quora dataset and SemEval STS Benchmark dataset respectively.
+\item \href{https://github.com/soumitrapy/cs224n/tree/main/a4/student}{\textbf{Neural Machine Translation (Chinese to English) with attention RNN:}} Implemented some of the major portion of the transformer architecture and used those model for machine translation. 
+\item \href{https://github.com/soumitrapy/CheggExtension}{Chegg Expert Extension}: Designed a chrome extension for easy navigation and notification for subject matter experts of the educational platform Chegg.
+
+%\item {Token Classification} : Fine tuned pretrained model for token classification with Huggingface transformer
+%\item {Question Answering} : Developed a Question answering system using pretrained model with Huggingface Transformers
+%\item Jazz Improvisation with LSTM
+%\item Trigger Word Detection
+%\item Object Detection using YOLO : Developed an object detection model using pretrained YOLO Weights
+%\item Image senmentation with U-Net 
+%\item Face Recognition 
+%\item Library Management System : Developed a Library Management System using OOPs in C++.
+\end{itemize}
+\end{document}
